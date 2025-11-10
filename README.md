@@ -1,10 +1,43 @@
-# Project Description
-This project aims to predict the risk of Cardiovascular Disease (CVD) by leveraging both traditional machine learning and deep learning techniques:
+# 🫀 Cardiovascular Disease Analysis and Prediction using Deep Learning  
 
-GridSearchCV: Used to perform an exhaustive search over specified hyperparameters for the CNN model. This technique helps find the best combination of parameters to improve the model’s prediction accuracy and robustness.
+This project explores the application of **Deep Learning** models for **Cardiovascular Disease (CVD) Prediction** using **ECG image data**.  
+It demonstrates how **Convolutional Neural Networks (CNN)** and **VGG16 (Transfer Learning)** can automatically extract features from medical images to predict disease presence accurately.  
 
-VGG16: A powerful pre-trained Convolutional Neural Network (CNN) model originally trained on ImageNet. In this project, VGG16 is used for transfer learning to extract meaningful features from the data, enabling efficient and accurate prediction even with limited training data.
+Developed as part of a research initiative at **VIT-AP University**, this study also utilizes **GridSearchCV** for hyperparameter optimization and follows a complete **data preprocessing → training → evaluation** pipeline.  
 
-CNN: A deep learning model designed and trained from scratch specifically for this cardiovascular dataset. The CNN architecture captures complex patterns and relationships within the data to classify the presence or absence of CVD.
+---
 
-By combining hyperparameter tuning, transfer learning, this project explores multiple approaches to improve prediction accuracy and help in early diagnosis of cardiovascular disease.
+## 🔍 Overview  
+
+Cardiovascular diseases (CVDs) are among the leading causes of global mortality.  
+Traditional diagnostic methods such as ECG interpretation rely heavily on human expertise and are prone to error.  
+This project proposes an **AI-driven approach** for automating and improving diagnostic accuracy using **deep learning models** that learn to recognize disease-specific ECG patterns.
+
+---
+
+## 🎯 Objectives  
+
+- Develop deep learning models to predict **cardiovascular disease** from **ECG images**.  
+- Compare the performance of **Custom CNN** and **Pre-trained VGG16** models.  
+- Optimize the CNN architecture using **GridSearchCV** for the best hyperparameter combination.  
+- Evaluate models based on **accuracy, precision, recall, and F1-score**.  
+- Demonstrate the potential of AI in enhancing **automated clinical decision support systems**.  
+
+---
+
+## 🧠 Key Concepts  
+
+### 🔹 Deep Learning  
+Deep learning enables **automatic feature extraction** from medical data without manual engineering.  
+- **CNN:** Learns spatial hierarchies and texture patterns from ECG images.  
+- **VGG16:** A deep pre-trained network (16 layers) capable of extracting complex medical image features.  
+
+### 🔹 GridSearchCV  
+Used for **hyperparameter tuning** in CNN:
+- Tested different combinations of learning rate, kernel size, dropout rate, and batch size.  
+- Improved training efficiency and accuracy through **K-Fold cross-validation**.  
+
+---
+
+## ⚙️ Project Architecture  
+
