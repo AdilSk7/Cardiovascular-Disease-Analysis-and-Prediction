@@ -40,15 +40,16 @@ Used for **hyperparameter tuning** in CNN:
 ---
 
 ## ⚙️ Project Architecture  
+```text
 CardioVascular-Disease-Prediction/
 │
-├── CNN.ipynb # Custom CNN model implementation
-├── VGG16.ipynb # Transfer Learning with VGG16
-├── grid_search.ipynb # CNN Hyperparameter optimization using GridSearchCV
-├── dataset/ # ECG images (Normal vs Abnormal)
-├── results/ # Model outputs, confusion matrices, and plots
-└── Project Report.pdf # IEEE-style project documentation
-
+├── CNN.ipynb             # Custom CNN model implementation  
+├── VGG16.ipynb           # Transfer Learning with VGG16  
+├── grid_search.ipynb     # CNN Hyperparameter optimization using GridSearchCV  
+├── dataset/              # ECG images (Normal vs Abnormal)  
+├── results/              # Model outputs, confusion matrices, and plots  
+└── Project Report.pdf    # IEEE-style project documentation  
+```
 
 ---
 
